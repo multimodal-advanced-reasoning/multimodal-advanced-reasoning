@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- font style import -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+    </style>
+
+    <!-- my css -->
+    <link rel="stylesheet" type="text/css" href="headnfoot.css">
+    <link rel="stylesheet" type="text/css" href="register.css">
+
+    <title>Register</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="ConfNavbar navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+    
+            <!-- Title -->
+            <a href="index.html" class="navbar-brand"><p class="mb-0">DSCI 2022</p></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav list-unstyled">
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="speakers.html" class="nav-link">Speakers</a></li>
+                    <li><a href="schedule.html" class="nav-link">Schedule</a></li>
+                    <li><a href="venue.html" class="nav-link">Venue</a></li>
+                    <li><a href="register.html" class="btn nav-link">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of Navbar -->
+
+    <!-- Content Section -->
+    <div class="titleDesc container mt-4 p-3">
+        <p class="display-6 pagetitle px-5 pt-1">Register</p>
+    </div>
+
+    <!-- Registration Contents -->
+    <div class="regCont container">
+        <div class="row">
+            <!-- 1st column -->
+            <div class="instruction col-md-7 py-1 px-4" style="max-width: 43rem">
+                <h4>Get your ticket to conference</h4>
+                <p>Buy your Bangalore Data Science Conference ticket by filling the your in the form. After filling up the form complete your payment by selecting your mode of payment and confirm your purchase. Once your order is finished we’ll follow up and provide a receipt for your purchase.
+                <br>
+                See you soon!</p>
+                <br>
+                <h4>The more the merrier!</h4>
+
+                <p class="lead mb-1 ms-1 w-75">Bring your friends along and enjoy the benefit of buying tickets at discounted prices.
+                    <ul>
+                        <li>3-5 passes: <span>10% discount</span></li>
+                        <li>6-10 passes: <span>20% discount</span></li>
+                        <li>10+ passes: <span>25% discount</span></li>
+                        <li>20+ passes: <span>30% discount</span></li>
+                    </ul>
+                </p>
+            </div>
+
+            <!-- 2nd column -->
+            <div class="col-md-5 ms-auto">
+                <form class="regform mx-auto" style="max-width: 600px; margin-bottom: 2rem;">
+                    <p class=" lead text-center mb-0">Enter your details</p>
+                    <div class="col-12">
+                        <label class="form-label">First Name</label>
+                        <input type="text" class="form-control" placeholder="You first name" required>
+                    </div>
+
+                    <div class="col-12">
+                        <label class="form-label">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Your last name" required>
+                    </div>
+
+                    <div class="col-12">
+                        <label class="form-label">Company</label>
+                        <input type="text" class="form-control" placeholder="Name of the company" required>
+                    </div>
+        
+                    <div class="col-12">
+                        <label class="form-label">Mobile Number</label>
+                        <input type="text" class="form-control" placeholder="Your mobile number" required>
+                    </div>
+
+                    <div class="col-12">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="col-12">
+                        <label class="form-label">Number of Tickets</label>
+                        <select class="form-select ms-3" style="max-width: 70px;" required>
+                        <option selected disabled value="">1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        </select>
+                    </div>
+        
+                    <div class="col-12 form-check mt-3">
+                        <label class="form-check-label" for="gridCheck">
+                            <input class="form-check-input mx-1" type="checkbox" id="gridCheck" required>
+                            <span style="color: #bdbdbd; font-size: medium;">I accept the <a href="#">terms and conditions</a>.</span>
+                        </label>
+
+                    </div>
+            
+                    <div class="col-12 text-center mt-3">
+                        <button type="submit" class="btn reg">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- end of Registration Contents -->
+
+    <!-- end of content -->
+    
+    <!--Footer-->   
+    <footer class="footer container-fluid p-4">
+        <div class="row">
+            <div class="col">
+                <ul class="list-unstyled mx-1 mb-0 py-2">
+                    <li><a href="#" class="nav-link py-0">Home</a></li>
+                    <li><a href="#" class="nav-link py-0">Speakers</a></li>
+                    <li><a href="#" class="nav-link py-0">Schedule</a></li>
+                    <li><a href="#" class="nav-link py-0">Venue</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul class="list-unstyled mx-1 mb-0 py-2">
+                    <li><a href="#" class="nav-link py-0">About</a></li>
+                    <li><a href="#" class="nav-link py-0">What's new</a></li>
+                    <li><a href="#" class="nav-link py-0">Partners</a></li>
+                    <li><a href="#" class="nav-link py-0">Become a Partner</a></li>
+                    <li><a href="#" class="nav-link py-0">Developers</a></li>
+                    <li><a href="#" class="nav-link py-0">Help and Support</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <ul class="list-unstyled mx-1 mb-0 py-2">
+                    <li><a href="#" class="nav-link py-0">Terms</a></li>
+                    <li><a href="#" class="nav-link py-0">FAQs</a></li>
+                    <li><a href="#" class="nav-link py-0">Privacy Policy</a></li>
+                    <li><a href="#" class="nav-link py-0">Cookie settings</a></li>
+                    <li><a href="#" class="nav-link py-0">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-5">
+                <form class="right py-2 me-2">
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new from us.</p>
+                    <div class="d-flex gap-2">
+                        <label class="visually-hidden">Email address</label>
+                        <input type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-outline-light" type="button">Subscribe</button>
+                    </div>
+                </form>      
+            </div>
+        </div>
+        <hr class="mb-0">
+        <div class="row">
+            <div class="col-12 col-sm">
+                <p class="left p-2" style="color: #c2c2c2;">© DSCB</p>
+            </div>
+            <div class="col-12 col-sm">
+                <ul class="right nav list-unstyled mt-2 px-1">
+                    <li><a href="#" class="nav-link bi bi-twitter"></a></li>
+                    <li><a href="#" class="nav-link bi bi-instagram"></a></li>
+                    <li><a href="#" class="nav-link bi bi-facebook"></a></li>
+                    <li><a href="#" class="nav-link bi bi-envelope"></a></li>
+                </ul>       
+
+            </div>
+        </div>
+    </footer>
+    <!-- end of Footer -->
+
+    <!--Bootstrap js-->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

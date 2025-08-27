@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(90deg, #bdbdbd,#ffffff,#ffffff,#bdbdbd);
+}
+
+.speakers{
+    max-width: 1150px;
+    margin: 2px auto;
+}
+.speakers a{
+    text-decoration: none;
+    color: #000000;
+}
+.speakers .card{
+    background: radial-gradient(#ffffff00,#ffffff00,#ffffff00,#03172e);
+    color: #011329;
+    margin: 2px auto 1rem auto;
+    padding: 1rem 0 0 0;
+    border: none;
+    border-radius: 40%;
+    width: 100%;
+    transition: 0.5s ease;
+}
+.speakers .card:hover img{
+    opacity: 0.9;
+}
+.speakers .card img{
+    opacity: 1;
+    padding: 2px;
+    margin: 1px auto;
+    width: 90%;
+    border-radius: 50%;
+    transition: 0.2s ease;
+
+}
+.speakers .card:hover{
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+.speakers .card-body{
+    text-align: center;
+}
+.card .card-title{
+    margin: 0px 6px 7px 6px;
+    font-weight: bold;
+    color: #fd6142;
+}
+.card .card-text{
+    margin: 1px 15px;
+}

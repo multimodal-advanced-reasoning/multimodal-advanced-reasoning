@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(90deg, #ffffff,#f0f0f0,#bdbdbd);
+}
+
+/* regtitle */
+.regtitle{
+    border: 10px solid #fd6142;
+    border-top: none;
+    border-bottom: none;
+    font-size: 45px;
+}
+
+/* Container */
+.regCont .instruction{
+    font-size: 18px;
+}
+.regCont .instruction h4{
+    color: #ff5e2d;
+}
+.regCont .instruction span{
+    color: #ff5e2d;
+    font-size: 19px;
+}
+.regCont form{
+    background-color: #091528ee;
+    color: #bdbdbd;
+    padding: 20px;
+    border-radius: 15px;
+}
+.regCont .regform label{
+    margin-top: 1rem;
+    margin-bottom: 0;
+    margin-left: 10px;
+    color: #bdbdbd;
+    font-size: 19px;
+}
+.regCont .regform input{
+    margin-bottom: 5px;
+}
+
+.regCont .col-12 .reg{
+    padding: 5px;
+    padding-top: 8px;
+    color: #ffffff;
+    width: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #ff5e2d;
+    border: 3px solid #ff5e2d;
+    border-radius: 20px;
+}
+.regCont .col-12 .reg:hover{
+    background-color: #ff5e2ddd;
+    color: white !important;
+    border: 3px solid #ff5e2d00;
+}

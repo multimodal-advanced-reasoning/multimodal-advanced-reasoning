@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(90deg, #bdbdbd,#ffffff,#ffffff,#bdbdbd);
+}
+
+.firstsec{
+    background: linear-gradient(#bdbdbd,#ffffff00,#ffffff00);
+    padding-top: 75px;
+    max-width: 1550px;
+}
+.firstsec .desc{
+    font-size: 22px;
+    padding: 2px 2rem;
+    text-align: center;
+}
+
+/* Theme n Topics */
+
+.topicsec{
+    max-width: 1100px;
+    color: #bdbdbd;
+    background: linear-gradient(#00000071,#00000071),
+    url("imgs/topic-bg.jpg") center;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.themeContent h5{
+    color: #FF4C29;
+}
+
+.themeContent{
+    color: #bdbdbd;
+    padding: 10px 5%;
+    padding-left: 10%;
+}
+
+/* Conference section */
+.conference{
+    max-width: 1300px;
+    padding: 5px 15px 5px 10px;
+}
+.conference img{
+    position: relative;
+    margin: 10px auto;
+    width: 95%;
+    border-radius: 15px;
+}
+.conference .conference-content{
+    text-align: center;
+}
+.conference .conference-content h2{
+    color: #FF4C29;
+    margin: 5px auto 5px auto;
+}
+.conference .conference-content span{
+    font-size: 17px;
+    font-weight: 400;
+}
+.display-6{
+    font-size: 30px;
+    font-weight: 450;
+}
+
+.covidsafety{
+    max-width: 1300px; 
+    background: linear-gradient(#00000071,#00000071),
+    url("imgs/covidbg.jpg") bottom;
+    color: #c2c2c2;
+}
+
+/* Partners */
+.partners{
+    background: linear-gradient(#ffffff00,#ffffff00,#ffffff00,#bdbdbd);
+    max-width: 1550px;
+    padding: 0 10% 0 10%;
+    color: #000000;
+}
+.partners .row{
+    padding-bottom: 40px;
+}
+.partners img{
+    width: 80%;
+    margin: 5px;
+    padding: 3px;
+}
+.sectitle{
+    margin: 1.5rem 0 1rem 0;
+    font-size: 40px;
+    display: inline;
+}

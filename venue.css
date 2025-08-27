@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(90deg, #ffffff,#ffffff,#bdbdbd);
+}
+
+
+.venueiframe{
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+}
+.venueimg{
+    max-width: 100%;
+    margin: 1px auto 10px auto;
+    border-radius: 8px;
+}
+/* otherHotels */
+.otherHotels .row{
+    max-width: 900px;
+    padding: 2rem 1rem;
+}
+.otherHotels a{
+    text-decoration: none;
+    color: #000000;
+}
+.otherHotels .card{
+    background-color: #ffffff00;
+    margin: 5px auto 5px auto;
+    max-width: 15rem;
+    border: none;
+}
+.otherHotels .card img{
+    border-radius: 5px;
+}
+.otherHotels .card .card-body{
+    padding-bottom: 2px;
+}
+.otherHotels .card .stars{
+    color: #ffc31d;
+}
