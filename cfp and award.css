@@ -2,48 +2,71 @@ body{
     background: linear-gradient(90deg, #bdbdbd,#ffffff,#ffffff,#bdbdbd);
 }
 
-.speakers{
-    max-width: 1150px;
-    margin: 2px auto;
+/* schedule accordion */
+.dayhead .forAllS{
+    color: #dddddd;
 }
-.speakers a{
-    text-decoration: none;
-    color: #000000;
+.dayhead .forAllS::after{
+    background-image: none;
 }
-.speakers .card{
-    background: radial-gradient(#ffffff00,#ffffff00,#ffffff00,#03172e);
-    color: #011329;
-    margin: 2px auto 1rem auto;
-    padding: 1rem 0 0 0;
+.dayhead .accordion-item{
     border: none;
-    border-radius: 40%;
-    width: 100%;
-    transition: 0.5s ease;
+    background: url("imgs/topic-bg.jpg") bottom;
+    color: #bdbdbd;
+    margin-bottom: 1rem;
 }
-.speakers .card:hover img{
-    opacity: 0.9;
+.dayhead .accordion-item .accordion-button{
+    background-color: #011329;
+    color: #dddddd;
 }
-.speakers .card img{
-    opacity: 1;
-    padding: 2px;
-    margin: 1px auto;
-    width: 90%;
-    border-radius: 50%;
-    transition: 0.2s ease;
+.dayhead .accordion-item .accordion-button .day-header{
+    margin-left: auto;
+    margin-bottom: 0;
+}
+.schedule{
+    max-width: 72rem;
+}
+.schedule .accordion-item{
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+.schedule .accordion-item .accordion-button{
+    background-color: #dddddd;
+    color: #011329;
+    font-size: 20px;
+}
+.schedule .accordion-item .accordion-button .day-header{
+    margin-bottom: 0;
+}
+.schedule .noexp .accordion-button{
+    color: #ff4c29;
+}
 
+.schedule .noexp .accordion-button::after{
+    background-image: none;
 }
-.speakers .card:hover{
-    transform: translateY(-4px);
-    transition: 0.3s;
+.schedule .row{
+    align-items: baseline;
 }
-.speakers .card-body{
+.schedule .row .time{
+    color: #ff4c29;
+    padding: 12px 20px;
+    margin-bottom: 5px;
+    max-width: 20rem;
+    font-size: 20px;
+    background-color: #dddddd;
+    border-radius: 3px;
     text-align: center;
 }
-.card .card-title{
-    margin: 0px 6px 7px 6px;
-    font-weight: bold;
-    color: #fd6142;
+.accordion-button:focus{
+    border: none;
+    box-shadow: none;
+    background-color: #00000000;
 }
-.card .card-text{
-    margin: 1px 15px;
+.accordion-button:active{
+    color: #ff4c29;
 }
+.accordion-button:not(.collapsed){
+    color: #ff4c29 !important;
+}
+/* schedule accordion end */
