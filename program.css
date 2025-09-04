@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(90deg, #bdbdbd,#ffffff,#ffffff,#bdbdbd);
+}
+
+/* schedule accordion */
+.dayhead .forAllS{
+    color: #dddddd;
+}
+.dayhead .forAllS::after{
+    background-image: none;
+}
+.dayhead .accordion-item{
+    border: none;
+    background: url("imgs/topic-bg.jpg") bottom;
+    color: #bdbdbd;
+    margin-bottom: 1rem;
+}
+.dayhead .accordion-item .accordion-button{
+    background-color: #011329;
+    color: #dddddd;
+}
+.dayhead .accordion-item .accordion-button .day-header{
+    margin-left: auto;
+    margin-bottom: 0;
+}
+.schedule{
+    max-width: 72rem;
+}
+.schedule .accordion-item{
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+.schedule .accordion-item .accordion-button{
+    background-color: #dddddd;
+    color: #011329;
+    font-size: 20px;
+}
+.schedule .accordion-item .accordion-button .day-header{
+    margin-bottom: 0;
+}
+.schedule .noexp .accordion-button{
+    color: #ff4c29;
+}
+
+.schedule .noexp .accordion-button::after{
+    background-image: none;
+}
+.schedule .row{
+    align-items: baseline;
+}
+.schedule .row .time{
+    color: #ff4c29;
+    padding: 12px 20px;
+    margin-bottom: 5px;
+    max-width: 20rem;
+    font-size: 20px;
+    background-color: #dddddd;
+    border-radius: 3px;
+    text-align: center;
+}
+.accordion-button:focus{
+    border: none;
+    box-shadow: none;
+    background-color: #00000000;
+}
+.accordion-button:active{
+    color: #ff4c29;
+}
+.accordion-button:not(.collapsed){
+    color: #ff4c29 !important;
+}
+/* schedule accordion end */
